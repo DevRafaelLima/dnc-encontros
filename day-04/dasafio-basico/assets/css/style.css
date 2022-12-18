@@ -8,7 +8,7 @@
  }
 
  body {
-    background: rgba(240, 196, 230, 0.26);
+     background: rgba(240, 196, 230, 0.26);
  }
 
  /*header*/
@@ -20,7 +20,7 @@
      color: #fff;
      list-style: none;
      display: flex;
-     width: 950px;
+     width: 1100px;
      margin: auto;
  }
 
@@ -28,6 +28,46 @@
      font-size: 32px;
      margin: 20px;
      cursor: pointer;
+     text-align: center;
+ }
+
+ label {
+     width: 363px;
+     height: 33px;
+     left: 44px;
+     top: 8px;
+
+     font-family: 'Alegreya Sans SC';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 28px;
+     line-height: 34px;
+
+     color: #000000;
+ }
+
+ button {
+     margin-top: 50px;
+     width: 306px;
+     height: 62px;
+     left: 620px;
+     top: 835px;
+
+     background: #76BEBE;
+     border-radius: 10px;
+
+     font-family: 'Raleway';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 39px;
+     line-height: 46px;
+     text-align: center;
+
+     color: #FFFFFF;
+     cursor: pointer;
+ }
+
+ .areaBotao {
      text-align: center;
  }
 
@@ -39,7 +79,7 @@
  }
 
  .topoInt {
-     width: 950px;
+     width: 1100px;
      margin: auto;
      display: flex;
  }
@@ -68,10 +108,10 @@
  .form {
      display: flex;
      justify-content: center;
+     padding-top: 50px;
  }
 
  .form form {
-     margin-top: 50px;
      padding: 20px;
      width: 531px;
  }
@@ -87,42 +127,83 @@
      border-radius: 10px;
  }
 
- .form form label {
-     width: 363px;
-     height: 33px;
-     left: 44px;
-     top: 8px;
+ .form form p {
+     margin-top: 25px;
+ }
 
+
+
+ /*Detalhes medicamentos*/
+ .form h1 {
+     font-size: 30px;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .form .informacoes {
+     width: 467px;
+     height: 409px;
+     left: 543px;
+     top: 407px;
+
+     background: rgba(255, 255, 255, 0.8);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+ }
+
+ .form h3 {
+     font-size: 34px;
      font-family: 'Alegreya Sans SC';
      font-style: normal;
      font-weight: 400;
      font-size: 28px;
      line-height: 34px;
-
-     color: #000000;
- }
-
- .form form p {
-    margin-top: 25px;
- }
-
- .form form button {
-    margin-top: 50px;
-     width: 306px;
-     height: 62px;
-     left: 620px;
-     top: 835px;
-
-     background: #76BEBE;
-     border-radius: 10px;
-
-     font-family: 'Raleway';
-     font-style: normal;
-     font-weight: 600;
-     font-size: 39px;
-     line-height: 46px;
      text-align: center;
+     margin: 15px;
 
+     color: rgba(0, 0, 0, 0.6);
+ }
+
+ /*alert*/
+ .areaAlert {
+    padding: 10px;
+     display: flex;
+    align-items: flex-end;
+     width: 571px;
+     height: 234px;
+
+     background: rgba(0, 0, 0, 0.82);
+     border: 1px solid #767373;
+ }
+
+ .areaAlert h2 {
+     font-family: 'Alegreya Sans SC';
+     font-style: normal;
+     font-weight: 800;
+     font-size: 28px;
+     line-height: 34px;
      color: #FFFFFF;
-     cursor: pointer;
+     margin-bottom: 20px;
+     text-transform: uppercase;
+ }
+
+ .areaAlert p {
+     font-family: 'Alegreya Sans SC';
+     font-style: normal;
+     font-size: 28px;
+     line-height: 34px;
+     color: #FFFFFF;
+     margin-bottom: 20px;
+     text-transform: uppercase;
+ }
+
+ .areaAlert button {
+     width: 81px;
+     height: 41px;
+     font-size: 15px;
+
+     background: #8CADF7;
  }

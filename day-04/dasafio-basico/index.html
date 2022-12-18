@@ -27,26 +27,28 @@
         </div>
     </section>
 
-    <section id="form" class="form">
+    <section id="formSection" class="form">
+        
         <form onsubmit="addMedicamentos()">
             <p>
                 <label for="fnomeMedicamento">Nome do medicamento</label><br>
-                <input type="text" id="fnomeMedicamento" name="nomeMedicamento" required>
+                <input type="text" id="fnomeMedicamento" name="nomeMedicamento">
             </p>
             <p>
                 <label for="fqtdDisponivelMedicamento">Quantidade Disponível</label><br>
-                <input type="text" id="fqtdDisponivelMedicamento" required>
+                <input type="text" id="fqtdDisponivelMedicamento">
             </p>
             <p>
                 <label for="fprecoUnidaddeMedicamento">Preço por Unidade</label><br>
-                <input type="text" id="fprecoUnidaddeMedicamento" required>
+                <input type="text" id="fprecoUnidaddeMedicamento">
             </p>
             <p>
                 <label for="fclasseMedicamento">Classe de Medicamento</label><br>
-                <input type="text" id="fclasseMedicamento" required>
+                <input type="text" id="fclasseMedicamento">
             </p>
-
-            <button type="submit">Cadastrar</button>
+            <div class="areaBotao">
+                <button type="submit">Cadastrar</button>
+            </div>
         </form>
     </section>
 
