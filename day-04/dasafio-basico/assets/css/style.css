@@ -1,0 +1,209 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Raleway', sans-serif;
+     box-sizing: border-box;
+ }
+
+ body {
+     background: rgba(240, 196, 230, 0.26);
+ }
+
+ /*header*/
+ header {
+     background-color: #76BEBE;
+ }
+
+ header ul {
+     color: #fff;
+     list-style: none;
+     display: flex;
+     width: 1100px;
+     margin: auto;
+ }
+
+ header ul li {
+     font-size: 32px;
+     margin: 20px;
+     cursor: pointer;
+     text-align: center;
+ }
+
+ label {
+     width: 363px;
+     height: 33px;
+     left: 44px;
+     top: 8px;
+
+     font-family: 'Alegreya Sans SC';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 28px;
+     line-height: 34px;
+
+     color: #000000;
+ }
+
+ button {
+     margin-top: 50px;
+     width: 306px;
+     height: 62px;
+     left: 620px;
+     top: 835px;
+
+     background: #76BEBE;
+     border-radius: 10px;
+
+     font-family: 'Raleway';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 39px;
+     line-height: 46px;
+     text-align: center;
+
+     color: #FFFFFF;
+     cursor: pointer;
+ }
+
+ .areaBotao {
+     text-align: center;
+ }
+
+ /*Title*/
+
+ .topo {
+     background-color: #fff;
+     height: 174px;
+ }
+
+ .topoInt {
+     width: 1100px;
+     margin: auto;
+     display: flex;
+ }
+
+ .title {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .title h1 {
+     font-size: 54px;
+     color: #CF509C;
+     text-align: center;
+ }
+
+ .title p {
+     color: #000;
+     font-size: 34px;
+     font-weight: 200px;
+ }
+
+ /*Form*/
+ .form {
+     display: flex;
+     justify-content: center;
+     padding-top: 50px;
+ }
+
+ .form form {
+     padding: 20px;
+     width: 531px;
+ }
+
+ .form form input {
+     width: 467px;
+     height: 54px;
+     left: 41px;
+     top: 46px;
+     padding: 15px;
+     font-size: 20px;
+     background: rgba(255, 255, 255, 0.57);
+     border-radius: 10px;
+ }
+
+ .form form p {
+     margin-top: 25px;
+ }
+
+
+
+ /*Detalhes medicamentos*/
+ .form h1 {
+     font-size: 30px;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .form .informacoes {
+     width: 467px;
+     height: 409px;
+     left: 543px;
+     top: 407px;
+
+     background: rgba(255, 255, 255, 0.8);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+ }
+
+ .form h3 {
+     font-size: 34px;
+     font-family: 'Alegreya Sans SC';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 28px;
+     line-height: 34px;
+     text-align: center;
+     margin: 15px;
+
+     color: rgba(0, 0, 0, 0.6);
+ }
+
+ /*alert*/
+ .areaAlert {
+    padding: 10px;
+     display: flex;
+    align-items: flex-end;
+     width: 571px;
+     height: 234px;
+
+     background: rgba(0, 0, 0, 0.82);
+     border: 1px solid #767373;
+ }
+
+ .areaAlert h2 {
+     font-family: 'Alegreya Sans SC';
+     font-style: normal;
+     font-weight: 800;
+     font-size: 28px;
+     line-height: 34px;
+     color: #FFFFFF;
+     margin-bottom: 20px;
+     text-transform: uppercase;
+ }
+
+ .areaAlert p {
+     font-family: 'Alegreya Sans SC';
+     font-style: normal;
+     font-size: 28px;
+     line-height: 34px;
+     color: #FFFFFF;
+     margin-bottom: 20px;
+     text-transform: uppercase;
+ }
+
+ .areaAlert button {
+     width: 81px;
+     height: 41px;
+     font-size: 15px;
+
+     background: #8CADF7;
+ }
