@@ -2,7 +2,7 @@
 
 <h2>Objetivo do repositório</h2>
 
-O objetivo deste repositório é armazenar as dinâmicas, entregas e trabalho prático desenvolvidos na formação em tecnologia da dnc. 
+O objetivo deste repositório é armazenar as dinâmicas, entregas e trabalhos prático desenvolvidos na formação em tecnologia da dnc. 
 
 <h3>Encontro ao vivo 04</h3>
 
