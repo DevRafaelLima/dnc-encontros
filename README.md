@@ -13,7 +13,8 @@ O objetivo deste repositório é armazenar as dinâmicas, entregas e trabalhos p
 <p>Desafio básido:  <a href="https://github.com/DevRafaelLima/dnc-encontros/tree/encontro-ao-vivo-04-desafio-basico">clique aqui</a><br>
 Desafio Avançado: <a href="https://github.com/DevRafaelLima/dnc-encontros/tree/encontro-ao-vivo-4">clique aqui</a></p>
 
+<h3>Projetos desenvolvidos</h3>
 
-
-
-
+<ul>
+    <li>Landing page ccxp</li>
+</ul>
