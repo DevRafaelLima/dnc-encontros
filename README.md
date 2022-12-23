@@ -16,5 +16,5 @@ Desafio Avançado: <a href="https://github.com/DevRafaelLima/dnc-encontros/tree/
 <h3>Projetos desenvolvidos</h3>
 
 <ul>
-    <li>Landing page ccxp</li>
+    <li><a href="https://github.com/DevRafaelLima/dnc-encontros/tree/landing-page-ccxp">Landing page ccxp</a></li>
 </ul>
