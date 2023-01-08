@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Login Jumpy</title>
+</head>
+<body>
+    <header>
+        <img src="assets/img/logo.svg" alt="logo dnc">
+    </header>
+    <div class="form">
+        <div class="jumpy-area">
+            <img src="assets/img/jumpy.svg" alt="logo jumpy">
+            <p>Bem vindo ao Jumpy</p>
+        </div>
+
+        <form onsubmit="handleForm()">
+            <div class="form-group">
+                <label for="nome_completo">Nome completo: </label>
+                <input type="text" placeholder="Nome completo" class="form-input" id="nome_completo">
+            </div>
+            <div class="form-group">
+                <label for="nome_completo">Email: </label>
+                <input type="email" placeholder="Email@email.com" class="form-input" id="email">
+            </div>
+            <div class="form-group">
+                <label for="nome_completo">Telefone: </label>
+                <input type="text" placeholder="(00) 00000-0000" class="form-input" id="telefone">
+            </div>
+            <div class="form-group">
+                <label for="nome_completo">CPF: </label>
+                <input type="text" placeholder="000.000.000-00" class="form-input" id="cpf">
+            </div>
+            <div class="form-group">
+                <label for="nome_completo">Senha: </label>
+                <input type="password" placeholder="****************" class="form-input" id="password">
+            </div>
+            <input type="submit" value="Cadastrar" class="btn">
+            <span id="alertError">Campos obrigatórios não registrado.</span>
+            <span id="alertSuccess">Sucesso!</span>
+        </form>
+
+    </div>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
