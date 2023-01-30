@@ -35,4 +35,4 @@
 </ul>
 </p>
 
-<p>obs: Cada empresa pode adaptar o SCRUM para sua necessidade.</p>
+<p>obs: Cada empresa pode adaptar o SCRUM para sua necessidade.****</p>
